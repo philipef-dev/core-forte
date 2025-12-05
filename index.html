@@ -143,7 +143,7 @@
     <section class="py-12 md:py-24">
         <article class="container mx-auto max-w-3xl px-6">
             <!-- Imagem Centrada -->
-            <img src="img/img-2.jpeg" alt="Foto de Thalia Amorim, sua Personal Trainer"
+            <img src="/assets/img/img-2.jpeg" alt="Foto de Thalia Amorim, sua Personal Trainer"
                 class="w-48 h-48 md:w-64 md:h-64 rounded-full object-cover mx-auto shadow-md">
 
             <!-- Texto (Layout de Coluna Única para melhor leitura) -->
@@ -626,7 +626,7 @@
 
                 <!-- TikTok -->
                 <a href="https://www.tiktok.com/@thaliapersonalcore" target="_blank" rel="noopener"
-                    class="hover:opacity-80 transition" title="Link para página do TikTok">
+                    class="hover:opacity-80 transition" title="Link para a página do TikTok">
                     <svg class="text-beige-dark" xmlns="http://www.w3.org/2000/svg" width="20" height="20"
                         viewBox="0 0 24 24" fill="currentColor">
                         <path
@@ -637,7 +637,7 @@
                 <!-- Youtube -->
                 <a href="https://www.youtube.com/@thaliamorimpersonalcore" target="_blank" rel="noopener"
                     class="hover:opacity-80 transition" title="Link para página do Youtube">
-                    <svg class="text-beige-dark" xmlns="http://www.w3.org/2000/svg" width="20" height="20"
+                    <svg class="text-beige-dark" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                         viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
                         stroke-linejoin="round" class="lucide lucide-youtube-icon lucide-youtube">
                         <path
@@ -650,35 +650,15 @@
     </footer>
 
     <!-- Botão de voltar ao topo -->
-    <div id="scroll-up"
-     class="scrollup fixed bottom-[85px] right-4 bg-olive-cta p-2 rounded-full shadow-lg cursor-pointer 
+    <div id="scroll-up" class="scrollup fixed bottom-[85px] right-4 bg-olive-cta p-2 rounded-full shadow-lg cursor-pointer 
             transition-all duration-300 hover:bg-olive-cta/80 opacity-0 pointer-events-none">
 
-    <svg xmlns="http://www.w3.org/2000/svg" fill="none"
-         viewBox="0 0 24 24" stroke-width="2" stroke="currentColor"
-         class="w-4 h-4 text-white">
-        <path stroke-linecap="round" stroke-linejoin="round" d="M5 15l7-7 7 7" />
-    </svg>
-</div>
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor"
+            class="w-4 h-4 text-white">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M5 15l7-7 7 7" />
+        </svg>
+    </div>
+    <script src="scripts/script.js"></script>
 </body>
-
-<script>
-    const scrollUpBtn = document.getElementById('scroll-up');
-
-    window.addEventListener('scroll', () => {
-        if (window.scrollY > 300) {
-            scrollUpBtn.classList.remove('opacity-0', 'pointer-events-none');
-        } else {
-            scrollUpBtn.classList.add('opacity-0', 'pointer-events-none');
-        }
-    });
-
-    scrollUpBtn.addEventListener('click', () => {
-        window.scrollTo({
-            top: 0,
-            behavior: 'smooth'
-        });
-    });
-</script>
 
 </html>
