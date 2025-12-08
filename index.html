@@ -1,10 +1,40 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 
 <head>
+
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
+    <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "Thalia Amorim",
+  "jobTitle": "Personal Trainer",
+  "description": "Especialista em treinamento de força, correção postural e fortalecimento funcional do core",
+  "url": "https://core-forte.vercel.app",
+  "sameAs": [
+    "https://www.instagram.com/thaliapersonalcore",
+    "https://www.tiktok.com/@thaliapersonalcore",
+    "https://www.youtube.com/@thaliamorimpersonalcore"
+  ],
+  "offers": [
+    {
+      "@type": "Offer",
+      "name": "Programa Fortalecimento Inteligente",
+      "price": "497.00",
+      "priceCurrency": "BRL"
+    },
+    {
+      "@type": "Offer",
+      "name": "Consultoria Online Premium - Plano Semestral",
+      "price": "997.00",
+      "priceCurrency": "BRL"
+    }
+  ]
+}
+</script>
     <!-- SEO Básico -->
     <title>Fortalecimento Inteligente | Thalia Amorim Personal Trainer</title>
     <meta name="description"
@@ -28,6 +58,7 @@
     <meta name="twitter:title" content="Fortalecimento Inteligente | Thalia Amorim" />
     <meta name="twitter:description" content="Acabe com dores e fortaleça sua postura com treinos inteligentes." />
     <meta name="twitter:image" content="https://seusite.com/imagem-de-capa.jpg" />
+    <link rel="canonical" href="https://core-forte.vercel.app/">
 
     <!-- Favicon -->
     <link rel="icon" href="/favicon.ico" type="image/x-icon" />
@@ -85,29 +116,45 @@
 </head>
 
 <body class="antialiased">
+    <div class="mx-full bg-[#6B8E23] text-center py-2 text-beige-dark text-white font-medium">
+        <a href="https://wa.me/558598316888?text=Olá%20gostaria%20de%20agendar%20um%20horário." target="_blank"
+            rel="noopener" class="flex items-center justify-center gap-2"
+            title="Botão do WhatsApp Agende um horário com Thalia Amorim | Personal Core">
+            AGENDE UM HORÁRIO <img class="w-5 h-5" src="./assets/img/logo-whatsApp.svg" alt="" srcset="">
+        </a>
+    </div>
 
     <!-- Hero Section -->
-    <section class="bg-stone-50 py-20 md:py-32">
-        <div class="container mx-auto max-w-5xl px-6 text-center">
+    <section class="relative bg-stone-50 py-20 md:py-32 overflow-hidden">
+
+        <!-- IMAGEM DE FUNDO -->
+        <div class="absolute inset-0 bg-cover bg-no-repeat bg-center opacity-20"
+            style="background-image: url('./assets/img/backgrund.jpg');">
+        </div>
+
+        <!-- CONTEÚDO -->
+        <div class="relative z-10 container mx-auto max-w-5xl px-6 text-center">
+
             <h1 class="text-3xl sm:text-4xl md:text-6xl font-light text-olive-dark leading-tight">
-                Programa de Fortalecimento Inteligente para Core e Postura | Thalia Amorim
-                <!-- Fortalecimento do Core e Alívio de Dor e Postura -->
+                Programa de Fortalecimento Inteligente para Core e Postura |
+                <span class="font-normal text-[#6B8E23]"> Thalia Amorim </span>
             </h1>
 
             <p class="mt-6 text-xl md:text-2xl font-light text-beige-dark">
                 Descubra o método de <strong class="font-medium">Fortalecimento Inteligente</strong> para blindar seu
                 Core, corrigir sua postura e viver sem dor.
             </p>
+
             <p class="mt-4 text-lg text-beige-dark">
                 Menos inchaço abdominal, mais força e um corpo funcional.
             </p>
+
             <a href="#programa-core"
                 class="mt-10 inline-block bg-olive-cta text-white font-medium py-3 px-10 rounded-full shadow-lg transition-transform transform hover:scale-105">
                 Conheça os Programas
             </a>
         </div>
     </section>
-
     <!-- Seção "Você se identifica?" (Gancho Forte) -->
     <section class="py-12 md:py-24">
         <article class="container mx-auto max-w-5xl px-6">
@@ -148,7 +195,7 @@
 
             <!-- Texto (Layout de Coluna Única para melhor leitura) -->
             <div class="mt-12 text-left">
-                <h2 class="text-center text-3xl md:text-4xl font-light text-olive-dark">💚 Sobre a Thalia</h2>
+                <h2 class="text-center text-3xl md:text-4xl font-light text-olive-dark">💚 Sobre a Thalia Amorim</h2>
                 <p class="text-center mt-4 text-lg text-olive-medium font-medium">Criadora do Fortalecimento Inteligente
                 </p>
 
@@ -598,8 +645,8 @@
             <a href="https://wa.me/558598316888?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20seus%20programas%20de%20fortalecimento."
                 target="_blank" rel="noopener"
                 class="mt-10 inline-block bg-olive-cta text-white font-medium py-3 px-10 rounded-full shadow-lg transition-transform transform hover:scale-[1.03] hover:shadow-xl transition-all duration-300"
-                title="Botão do WhatsApp Falar com a Thalia">
-                Falar com a Thalia
+                title="Botão do WhatsApp Conversar com Thalia Amorim">
+                Conversar com Thalia Amorim
             </a>
         </div>
     </section>
@@ -609,14 +656,18 @@
         <div class="container mx-auto px-6 flex items-center justify-between">
 
             <!-- Texto no canto esquerdo -->
-            <p class="text-sm opacity-80 text-beige-dark">© 2025 Todos os direitos reservados</p>
-
+            <div>
+                <p class="text-sm opacity-80 text-beige-dark">
+                    Thalia Amorim | Personal Core</p>
+                <p class="text-sm opacity-80 text-beige-dark">© 2025 Todos os direitos reservados</p>
+            </div>
             <!-- Ícones no canto direito -->
-            <div class="flex items-center gap-3">
+            <div class="flex items-center gap-2">
+                <p class="text-sm opacity-80 text-beige-dark">Acompanhe meu trabalho nas redes sociais</p>
                 <!-- Instagram -->
                 <a href="https://www.instagram.com/thaliapersonalcore" target="_blank" rel="noopener"
                     class="hover:opacity-80 transition">
-                    <img class="w-4 h-4" src="./assets/img/logo-instagram.svg" title="Link para a página Instagram" />
+                    <img class="w-4 h-4" src="./assets/img/logo-instagram.svg" title="Link para a página do Instagram">
                 </a>
 
                 <!-- TikTok -->
@@ -635,7 +686,7 @@
     </footer>
 
     <!-- Botão de voltar ao topo -->
-    <div id="scroll-up" title="Botão subir ao topo" class="scrollup fixed bottom-[85px] right-4 bg-olive-cta p-2 rounded-full shadow-lg cursor-pointer 
+    <div id="scroll-up" title="Botão subir ao topo" class="scrollup fixed bottom-[105px] right-4 bg-olive-cta p-2 rounded-full shadow-lg cursor-pointer 
             transition-all duration-300 hover:bg-olive-cta/80 opacity-0 pointer-events-none">
 
         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor"
